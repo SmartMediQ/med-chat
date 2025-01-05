@@ -21,4 +21,6 @@ response = chat_client.complete_chat(
 print(response)
 ```
 
+**Set environment variable `OPENAI_API_KEY` before calling `ChatClient.use("chatgpt")`.**
+
 See more examples under `tests` directory.
